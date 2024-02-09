@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="get_fact">Get fact</string>
+    <string name="get_random_fact">Get random fact</string>
+    <string name="enter_a_number_to_receive_a_fact_about_it">Enter a number to receive a fact about it.</string>
+</resources>
