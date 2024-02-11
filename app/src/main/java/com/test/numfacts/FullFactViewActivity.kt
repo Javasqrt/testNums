@@ -12,7 +12,9 @@ class FullFactViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        if(intent.getStringExtra("fact") != null){
+            binding.numberView.text = intent.getStringExtra("fact")
+        }
 
-        binding.numberView.text = intent.getStringExtra("fact")
     }
 }
